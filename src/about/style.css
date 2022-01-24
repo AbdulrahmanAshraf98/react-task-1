@@ -1,0 +1,21 @@
+.about{
+    padding: 2rem;
+    background-color: var(--primary-color);
+}
+.about .container{
+    text-align: center;
+}
+.about .title-center h2{
+    color: var(--white);
+}
+.about .title-center h2::before{
+    background-color: var(--white);
+}
+
+.about .container .desc{
+    width: 85%;
+    margin: 0 auto 2rem ;
+    color: var(--white);
+    font-size:1.3rem;
+    line-height: 1.5
+}

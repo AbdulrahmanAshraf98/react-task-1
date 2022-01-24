@@ -1,0 +1,28 @@
+.services{
+    padding:3rem 0;
+}
+
+.services .title-center h2::before{
+    background-color: var(--primary-color);
+}
+.services .row{
+    gap:2rem;
+    
+}
+.services .row  .services-item{
+    text-align:center;
+}
+.services .row  .services-item .icon i{
+    font-size:2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+.services .row  .services-item h3{
+    font-size:1.5rem;
+    margin-bottom: 0.5rem;
+} 
+.services .row  .services-item p{
+    color: #6c757d;
+    line-height:1.5
+}
+
