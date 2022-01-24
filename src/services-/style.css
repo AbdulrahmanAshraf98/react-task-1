@@ -25,4 +25,18 @@
     color: #6c757d;
     line-height:1.5
 }
+@media (max-width:991px){
+    .services .row{
+        flex-wrap: wrap;
+    }
+    .services .row  .services-item{
+        width: 45%;
+    } 
+}
 
+@media (max-width:576px){
+    
+    .services .row  .services-item{
+        width: 100%;
+    } 
+}

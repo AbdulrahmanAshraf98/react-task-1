@@ -36,8 +36,7 @@ li{
     font-size: 2.7rem;
     position: relative;
     padding-bottom:20px;
-    margin-bottom:40px;
-    
+    margin-bottom:40px;  
 }
 .title-center h2::before{
     content: '';
@@ -65,4 +64,26 @@ li{
 .btn-white{
     background-color: var(--white);
     
+}
+@media (max-width:991px){
+    .container{
+        width:90%;
+    }
+    .title-center{
+        width: 80%;
+    } 
+    .title-center h2{
+        font-size:1.9rem;
+    }
+}
+@media (max-width:576px){
+    .container{
+        width:95%;
+    }
+    .title-center{
+        width: 100%;
+    } 
+    .title-center h2{
+        font-size:1.5rem;
+    }
 }
